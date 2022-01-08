@@ -1,0 +1,55 @@
+/* GLOBAL STYLES */
+html {
+  box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #abceec;
+}
+
+.container {
+  background-color: #fff;
+  width: 400px;
+  min-height: 250px;
+  padding: 30px 20px 20px;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+#text {
+  display: block;
+  width: 100%;
+  min-height: 230px;
+  font-family: sans-serif;
+  resize: none;
+  outline: none;
+  color: #000;
+  border: 2px solid #15a815;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+p {
+  position: absolute;
+  right: 30px;
+  bottom: 15px;
+  color: #15a815;
+}
